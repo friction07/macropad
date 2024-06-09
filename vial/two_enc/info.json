@@ -31,8 +31,8 @@
     "matrix_pins": {
         "direct": [
             ["GP5", "GP1", "GP0", "GP22"],
-            ["GP8", "GP7", "GP6", "GP21"],
-            ["GP29", "GP9", "GP28", "NO_PIN"]
+            ["GP8", "GP7", "GP6", "NO_PIN"],
+            ["GP29", "GP9", "GP28", "GP21"]
         ]
     },
     "layouts": {

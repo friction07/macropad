@@ -1,0 +1,6 @@
+if SHIELD_THERMAL_PAD
+
+config ZMK_KEYBOARD_NAME
+    default "thermal pad"
+
+endif

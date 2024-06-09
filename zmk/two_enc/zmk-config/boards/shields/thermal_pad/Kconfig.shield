@@ -1,0 +1,2 @@
+config SHIELD_THERMAL_PAD
+    def_bool $(shields_list_contains,thermal_pad)
