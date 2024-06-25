@@ -40,26 +40,24 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "default layer";
             bindings = <
                 &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE
-                &kp PSCRN   &kp HOME          &name_this 
-                &kp LEFT    &kp END           &kp RIGHT   &kp C_SLEEP 
+                &kp PSCRN   &kp HOME          &name_this
+                &kp LEFT    &kp END           &kp RIGHT   &kp C_SLEEP
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 
         };
 
         fn_layer {
-            display-name = "fn layer";
             bindings = <
                 &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &trans
                 &trans      &trans      &trans
                 &trans      &trans      &trans      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 
         };
     };
