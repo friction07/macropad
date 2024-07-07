@@ -26,12 +26,12 @@
 
     default_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
-        rows = <3>;
-        columns = <4>;
-            map = <
+        columns = <10>;
+        rows = <1>;
+        map = <
             RC(0,0) RC(0,1) RC(0,2)
-            RC(1,0) RC(1,1) RC(1,2)
-            RC(2,0) RC(2,1) RC(2,2) RC(2,3)
+            RC(0,3) RC(0,4) RC(0,5)
+            RC(0,6) RC(0,7) RC(0,8) RC(0,9)
         >;
     };
 

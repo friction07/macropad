@@ -43,8 +43,8 @@
             display-name = "default layer";
             bindings = <
                 &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT
-                &kp PSCRN   &kp HOME          &name_this 
-                &kp LEFT    &kp END           &kp RIGHT   &kp C_MUTE 
+                &kp PSCRN   &kp HOME          &name_this
+                &kp LEFT    &kp END           &kp RIGHT   &kp C_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
